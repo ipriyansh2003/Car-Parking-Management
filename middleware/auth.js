@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 const registerManager = require('../source/models/register')
-
+//new branch
 const auth = (req,res,next)=>{
     try {
      const token = req.cookies.jwt
